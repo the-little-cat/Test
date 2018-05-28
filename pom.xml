@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ebupt.bi.portal</groupId>
+	<artifactId>SimpleJSH</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.4-SNAPSHOT</version>
+	<name>SimpleJSH</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<spring.version>4.1.0.RELEASE</spring.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.ebupt.bi.portal</groupId>
+			<artifactId>portal-base-dependencies</artifactId>
+			<version>0.0.1</version>
+			<type>pom</type>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>SimpleJSH</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

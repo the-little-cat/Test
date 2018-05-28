@@ -25,7 +25,7 @@ import antlr.collections.List;
 
 
 @Entity
-@Table(name="resource_dongxin")
+@Table(name="resource_dongxin")  
 public class resource_dongxin implements EntityRoot{
 	
 	
